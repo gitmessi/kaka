@@ -3,7 +3,7 @@ $(function(){
 
 	// });
 	window.scrollReveal = new scrollReveal(
-		reset:true;
+		{reset:true}
 	);
 
 	// $('.span').toggle(function(){
