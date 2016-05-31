@@ -2,7 +2,9 @@ $(function(){
 	// $('#fullpage').fullpage({
 
 	// });
-	window.scrollReveal = new scrollReveal();
+	window.scrollReveal = new scrollReveal(
+		reset:true;
+	);
 
 	// $('.span').toggle(function(){
 	// 	$('.head-d').addClass('show');
