@@ -1,0 +1,119 @@
+@charset 'utf-8';
+
+.wrap{
+	max-width: 640px;
+	width: 90%;
+}
+nav{
+	display: none;
+}
+
+.head-r{
+	display: none;
+}
+.logo{
+	width:70%;
+	margin-left: 2%; 
+}
+.logo img{
+	width: 100%;
+}
+.wrap .yin{
+	display: block;
+	float: right;
+	width: 10%;
+	margin-top: 5%;
+}
+.playbox{
+	padding-bottom: 46%;
+	height: 0;
+}
+
+._p,._p1{
+	width: 90%;
+	margin: 0 auto;
+}
+.aq ._ban{
+	background: url(images/black.6.png);
+	width: 100%;
+	height: 100%;
+	padding-top: 10px;
+	/*position: absolute;
+	bottom: -40px;*/
+	text-align: center;
+}
+._banse{
+	text-align: center;
+	margin-left: 0;
+
+	width: 100%;
+	height: 100%;
+	background-color: rgba(100,100,100,0.5);
+}
+._ban ul{
+  position:relative;
+  margin-left: 20px;
+  left:0;
+  width: 100%;
+  height: auto;
+}
+._ban li{
+	height: auto;
+	padding:1em;
+	text-align: center; 
+}
+.aq ._g{
+	width: 100%;
+	height: auto;
+	
+	background: url(images/sec4-b2.jpg) no-repeat;
+	margin-top: 10px;
+}
+.aq ._g ._gb{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+} 
+.aq ._g .ga1{
+	width: 100%;
+	height: auto;
+	display: block;
+	
+}
+.aq ._g .ga2{
+	width: 100%;
+	height: auto;
+	display: block;
+	
+}
+.footer ._cont ._head{
+	height: 28px;
+	padding: 20px 0;
+	font-size: 16px;
+}
+
+.footer ._logo{
+	margin-right: 15px;
+	width: 100%;
+}
+.footer ._logo img{
+	width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

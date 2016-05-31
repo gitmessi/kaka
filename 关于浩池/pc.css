@@ -1,0 +1,120 @@
+@charset 'utf-8';
+@font-face {font-family: 'iconfont';
+    src: url('../../zy/iconfont/iconfont.eot'); /* IE9*/
+    src: url('../../zy/iconfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../zy/iconfont/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../../zy/iconfont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../../zy/iconfont/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 110px;
+	background: #fff;
+}
+.logo{
+	margin-top: 20px;
+}
+.nav{
+	margin-top: 50px;
+}
+.nav li{
+	margin-left: 20px;
+}
+.nav li a{
+	float: left;
+	padding: 0 10px;
+	font-size: 18px;
+}
+.head-r big{
+	color: #f26d01;
+	font-size: 14px;
+}
+// .wrap .yin{
+// 	display: none;
+// }
+.span{
+	background: #f28900;
+	color: #fff;
+	display: block;
+	height: 24px;
+	line-height: 24px;
+	padding: 1px 10px;
+	border-color: #f28900;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.span2{
+	
+	display: block;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 10px;
+	padding-right: 53px;
+	padding-top: 1px;
+	cursor: pointer;
+	
+}
+.span2:hover{
+	background-color: red;
+}
+.head-r .span1{padding-left: 8px;padding-right: 20px;}
+.head-r .head-d{
+	position: absolute;
+	top: 24px;
+	left: 0;
+	padding-left: 8px;
+	padding-right: 35px;
+	z-index: 77;
+	background: white;
+	display: none;
+}
+#container ._cont-nav a{
+	width: 250px;
+	display: block;
+	color: #fff;
+	font-size: 15px;
+	height: 24px;
+	line-height: 24px;
+	margin-top: 18px;
+	border-left: 1px solid #fbcd99;
+}
+#container ._cont-nav a:hover{
+	color: #F65600;
+}
+#container li:last-child a{
+	border-right: 1px solid #fbcd99;
+}
+// part 2
+.about{
+	width: 100%;
+	// height: 451.4px;
+
+}
+.about .wrap2{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// 文化
+.culture{
+	width: 100%;
+}
+.culture ._cont{
+	width: 80%;
+	// margin: 30px auto 0;
+}
+.culture ._cont ._total{
+	background: url(../images/culture_icon.png) no-repeat ;
+	background-position: 0 -217px;
+
+}

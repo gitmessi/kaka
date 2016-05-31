@@ -1,0 +1,80 @@
+@charset 'utf-8';
+@font-face {font-family: 'iconfont';
+    src: url('../../zy/iconfont/iconfont.eot'); /* IE9*/
+    src: url('../../zy/iconfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../../zy/iconfont/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../../zy/iconfont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../../zy/iconfont/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.nav{
+	display: none;
+}
+.head-r{
+	display: none;
+}
+.wrap .yin{
+	display: block;
+}
+#container ._cont-nav a{
+	width: 100%;
+	display: block;
+	color: #fff;
+	font-size: 15px;
+	margin-left: 20px;
+	border-left: none;
+}
+ #container li:last-child a{
+	border-right:none;
+}
+.about .wrap2{
+	width: 88%;
+}
+.about .wrap2 .posi{
+	font-size: 16px;
+	padding-top: 5px;
+}
+
+// 文化
+.culture{
+	width: 100%;
+}
+.culture ._cont{
+	width: 100%;
+}
+.culture ._cont li{
+	margin-bottom: 30px;
+} 
+.culture ._cont ._total{
+	width: 100%;
+	background: url(../images/culture_icon.png) no-repeat center 0;
+	background-position: 50%  -217px;
+
+}
+
+// 风采
+._fencai .ice_head2{
+	width: 100%;
+}
+._fencai .ice_head2 ._p{
+	width: 80%;
+	margin: 0 auto;
+}
+._fencai .fencai_slide{
+	width: 100%;
+}
+// 信息
+.message .ice_head3 ._p{
+	width: 80%;
+	margin: 0 auto;
+} 
+.message .wrap .into{
+	text-align: center;
+	margin-top: 20px;
+}
